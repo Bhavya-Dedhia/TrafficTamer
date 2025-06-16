@@ -6,16 +6,16 @@ This command updates your system’s list of available packages and their versio
 Also ensures you are installing the latest and compatible versions of dependencies like PyQt5 and system tools.
 
 2. **Install Python Libraries**
-```pip3 install psutil pyqtgraph```<br>
+<br>```pip3 install psutil pyqtgraph```<br>
 psutil: Used by TrafficTamer to access live network stats (bytes sent/received).<br>
 pyqtgraph: Allows you to draw the real-time network speed graph inside the GUI.
 
-3. Install PyQt5 (System Package)<br>
+3. **Install PyQt5 (System Package)** <br>
 ```sudo apt install python3-pyqt5```<br>
 This command installs the PyQt5 GUI framework system-wide.<br>
 Also enables the creation of the application's graphical interface (windows, buttons, layouts).
 
-**4. Redundant (but Safe) PyQt5 Install via pip<br>**
+4. Redundant (but Safe) PyQt5 Install via pip<br>
 ```sudo python3 -m pip install PyQt5```<br>
 In case your system package doesn’t work properly, this ensures that PyQt5 is available in your Python environment.<br>
 Often needed on minimal or custom Linux installs.
