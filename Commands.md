@@ -15,17 +15,17 @@ pyqtgraph: Allows you to draw the real-time network speed graph inside the GUI.
 This command installs the PyQt5 GUI framework system-wide.<br>
 Also enables the creation of the application's graphical interface (windows, buttons, layouts).
 
-4. Redundant (but Safe) PyQt5 Install via pip<br>
+4. **Redundant (but Safe) PyQt5 Install via pip** <br>
 ```sudo python3 -m pip install PyQt5```<br>
 In case your system package doesn’t work properly, this ensures that PyQt5 is available in your Python environment.<br>
 Often needed on minimal or custom Linux installs.
 
-**5. Reinstall pyqtgraph (just in case)<br>**
+5. **Reinstall pyqtgraph (just in case)** <br>
 ```sudo python3 -m pip install pyqtgraph```<br>
 This command ensures pyqtgraph is installed in the correct environment if pip3 install didn’t place it properly.<br>
 TrafficTamer relies on it for live graph rendering.
 
-**6. Clean Up the Cache<br>**
+6. **Clean Up the Cache** <br>
 ```sudo python3 -m pip cache purge```<br>
 This command clears pip’s downloaded package cache.<br>
 It frees up disk space and ensures a fresh environment in case you reinstall or debug any module issues.
