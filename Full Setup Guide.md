@@ -34,7 +34,6 @@ Open a new terminal window and run:<br>
 ```sudo tc -s qdisc show dev enp0s3```<br>
 - This shows current traffic shaping (qdisc) rules on the interface enp0s3.
 - Change enp0s3 to your actual network interface if needed. Use ip a to find your active one.
-<br>
-
-#### That's it!
+  
+## That's it!
 You're now fully set up to use TrafficTamer for visualizing and controlling your Linux network bandwidth.
