@@ -11,7 +11,7 @@ This is where all your files will live.
 
 ### Step 3: Create the Main Python File
 You'll now create the app file that runs the TrafficTamer GUI.<br>
-Open nano editor to create your GUI script
+Open nano editor to create your GUI script<br>
 ```nano app_gui.py```<br>
 Then, paste the full Python GUI code into the file (make sure the class is properly indented and all __init__, if __name__ == "__main__": blocks are correct).
 <br>
