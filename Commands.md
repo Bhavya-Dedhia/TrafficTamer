@@ -1,16 +1,16 @@
 ## Essential Setup Commands for TrafficTamer
 
-**1. Update Package List<br>**
-```sudo apt update```<br>
+**1. Update Package List**
+<br>```sudo apt update```<br>
 This command updates your system’s list of available packages and their versions.<br>
 Also ensures you are installing the latest and compatible versions of dependencies like PyQt5 and system tools.
 
-**2. Install Python Libraries<br>**
+**2. Install Python Libraries**
 ```pip3 install psutil pyqtgraph```<br>
 psutil: Used by TrafficTamer to access live network stats (bytes sent/received).<br>
 pyqtgraph: Allows you to draw the real-time network speed graph inside the GUI.
 
-**3. Install PyQt5 (System Package)<br>**
+3. Install PyQt5 (System Package)<br>
 ```sudo apt install python3-pyqt5```<br>
 This command installs the PyQt5 GUI framework system-wide.<br>
 Also enables the creation of the application's graphical interface (windows, buttons, layouts).
