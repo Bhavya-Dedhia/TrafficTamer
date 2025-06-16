@@ -29,8 +29,8 @@ TrafficTamer relies on it for live graph rendering.
 ```sudo python3 -m pip cache purge```<br>
 This command clears pip’s downloaded package cache.<br>
 It frees up disk space and ensures a fresh environment in case you reinstall or debug any module issues.
-
 <br>
+
 #### These commands make sure your system is ready to run TrafficTamer smoothly by installing:
 
 **PyQt5** → GUI toolkit<br>
