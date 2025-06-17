@@ -27,10 +27,10 @@ All detailed instructions are given in **"Full Setup Guide" & "Commands"** file
 ## Screenshots
 ![Screenshot 2025-06-12 222523](https://github.com/user-attachments/assets/caa97773-75bf-4ee7-9a6d-b10601c6f860)
 
-TrafficTamer – Upload and Download speeds Graph
+#### TrafficTamer – Upload and Download speeds Graph
 ![Screenshot 2025-06-12 223525](https://github.com/user-attachments/assets/9ee5bd8b-87a0-4358-b74e-c98c6d694596)
 
-TrafficTamer – After applying traffic shaping 
+##### TrafficTamer – After applying traffic shaping 
 ![Screenshot 2025-06-12 222609](https://github.com/user-attachments/assets/f1d99ee4-adc5-4819-9b9d-c1c6e4569774)
 
 TrafficTamer – After clear traffic shaping
